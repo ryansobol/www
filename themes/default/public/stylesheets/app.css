@@ -1,0 +1,357 @@
+*, *:before, *:after {
+          box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+}
+
+html {
+  font: 19px/1.5 "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-weight: 900;
+  line-height: 1.2;
+
+  /* Consider applying to all elements */
+  text-rendering: optimizelegibility;
+}
+
+a {
+          transition: all 0.13s ease-out;
+  -webkit-transition: all 0.13s ease-out;
+     -moz-transition: all 0.13s ease-out;
+      -ms-transition: all 0.13s ease-out;
+       -o-transition: all 0.13s ease-out;
+
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/*****************************************************************************/
+
+nav {
+  top: 0;
+  width: 100%;
+  height: 45px;
+  z-index: 100;
+  position: fixed;
+  background-color: #34495E;
+}
+
+nav section {
+  margin: 0 auto;
+  width: 768px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul#right {
+  float: right;
+}
+
+nav li {
+  float: left;
+  width: 128px;
+  height: 45px;
+  line-height: 45px;
+}
+
+nav li#active {
+  background-color: #2C3E50;
+}
+
+nav li#cta {
+  background-color: #2880B9;
+}
+
+nav a {
+  color: white;
+  height: 100%;
+  display: block;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+nav a:hover {
+  color: #2C3E50;
+  background-color: white;
+}
+
+/*****************************************************************************/
+
+header {
+  color: white;
+  margin-top: 45px;
+  padding-bottom: 40px;
+  background-color: #2C3E50;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 96px;
+  padding-top: 20px;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 32px;
+  padding-top: 20px;
+}
+
+/*****************************************************************************/
+
+main {
+  color: #2C3E50;
+}
+
+main section {
+  margin: 0 auto;
+  width: 768px;
+}
+
+main h3 {
+  margin: 0;
+  font-size: 46px;
+  padding: 30px 0 10px 0;
+}
+
+main p {
+  margin: 0;
+  padding-top: 20px;
+}
+
+main ul, ol {
+  margin: 0;
+  padding-top: 10px;
+}
+
+main li {
+  padding-top: 10px;
+}
+
+main ul#questions li, ul#champion li, ul#teams li, ol#process li {
+  position: relative;
+}
+
+main ul#questions li:before {
+  left: -34px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  content: "?";
+  display: block;
+  position: absolute;
+  background: #E74C3C;
+  text-align: center;
+  font-weight: 900;
+  line-height: 25px;
+
+          border-radius: 13px;
+  -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+      -ms-border-radius: 13px;
+}
+
+main ul#champion li:before {
+  left: -34px;
+  width: 0;
+  height: 0;
+  border: solid 13px #F1C40F;
+  content: "\00a0";
+  display: block;
+  position: absolute;
+
+          border-radius: 13px;
+  -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+      -ms-border-radius: 13px;
+}
+
+main ul#champion li:after {
+  top: 14px;
+  left: -30px;
+  width: 18px;
+  height: 19px;
+  content: "\00a0";
+  display: block;
+  z-index: 10;
+  position: absolute;
+  background-image: url(../images/trophy.svg);
+}
+
+main ul#teams li:before {
+  left: -34px;
+  width: 0;
+  height: 0;
+  border: solid 13px #2ECC71;
+  content: "\00a0";
+  display: block;
+  position: absolute;
+
+          border-radius: 13px;
+  -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+      -ms-border-radius: 13px;
+}
+
+main ul#teams li:after {
+  top: 14px;
+  left: -26px;
+  width: 9px;
+  height: 14px;
+  border: solid #fff;
+  content: "\00a0";
+  display: block;
+  z-index: 10;
+  position: absolute;
+  border-width: 0 4px 4px 0;
+
+          transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+}
+
+main ol#process {
+  counter-reset: step;
+}
+
+main ol#process li:before {
+  left: -34px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  content: counter(step);
+  display: block;
+  position: absolute;
+  background: #1ABC9C;
+  text-align: center;
+  font-weight: 900;
+  line-height: 25px;
+  counter-increment: step;
+
+          border-radius: 13px;
+  -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+      -ms-border-radius: 13px;
+}
+
+main blockquote {
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+main blockquote#first-quote {
+  padding-top: 20px;
+}
+
+main cite {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+}
+
+main svg {
+  margin: 0 auto;
+  display: block;
+  margin-top: 60px;
+}
+
+main svg#code-fellows {
+  margin-top: 50px;
+}
+
+main .row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+main .row:after {
+  clear: both;
+}
+
+main .half {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+main .third {
+  float: left;
+  width: 33%;
+}
+
+main h4 {
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+main #first-tier {
+  padding-top: 15px;
+}
+
+main ul.pricing-table {
+  margin: 0;
+  padding: 0 5px;
+}
+
+main ul.pricing-table li {
+  height: 53px;
+  padding: 0;
+  text-align: center;
+  line-height: 53px;
+}
+
+main ul.pricing-table li:nth-child(even) {
+  background-color: #E8ECEE;
+}
+
+main li.title {
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
+
+main li.bullet-item {
+  font-weight: 300;
+}
+
+main .cta-button a {
+  color: white;
+  width: 220px;
+  height: 53px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-weight: 900;
+  line-height: 53px;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  background-color: #2980B9;
+}
+
+main .cta-button a:hover {
+  background-color: #3498DB;
+}
+
+main h5 {
+  margin: 0;
+  padding: 35px 0;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
