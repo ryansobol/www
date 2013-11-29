@@ -1,7 +1,7 @@
 require "mango"
 
 class Mango::Application
-  configure :production do
+  configure :production, :staging do
     require "newrelic_rpm"
   end
 end
