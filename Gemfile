@@ -1,3 +1,4 @@
 source "http://rubygems.org"
 ruby "2.0.0"
 gem "mango", "~> 0.7.0"
+gem "newrelic_rpm"
