@@ -355,3 +355,11 @@ main h5 {
   text-align: center;
   font-weight: 300;
 }
+
+main h5 a {
+  color: #2C3E50;
+}
+
+main h5 a:hover {
+  text-decoration: none;
+}
