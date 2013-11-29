@@ -1,5 +1,5 @@
 common: &default_settings
-  license_key: ENV["NEW_RELIC_LICENSE_KEY"]
+  license_key: '<%= ENV["NEW_RELIC_LICENSE_KEY"] %>'
 
   # Developer mode should be off in every environment but
   # development as it has very high overhead in memory.
@@ -111,9 +111,9 @@ test:
 production:
   <<: *default_settings
   monitor_mode: true
-  app_name: RyanSobol.com (Production)
+  app_name: <%= ENV["NEW_RELIC_APP_NAME"] %> (Production)
 
 staging:
   <<: *default_settings
   monitor_mode: true
-  app_name: RyanSobol.com (Staging)
+  app_name: <%= ENV["NEW_RELIC_APP_NAME"] %> (Staging)
