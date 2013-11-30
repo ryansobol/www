@@ -68,10 +68,6 @@ nav li#active {
   background-color: #2C3E50;
 }
 
-nav li#cta {
-  background-color: #2880B9;
-}
-
 nav a {
   color: white;
   height: 100%;
@@ -82,9 +78,13 @@ nav a {
   letter-spacing: 0.04em;
 }
 
-nav a:hover {
+nav a:hover, a#cta-nav:hover {
   color: #2C3E50;
   background-color: white;
+}
+
+nav a#cta-nav {
+  background-color: #2880B9;
 }
 
 /*****************************************************************************/
@@ -329,7 +329,7 @@ main li.bullet-item {
   font-weight: 300;
 }
 
-main .cta-button a {
+main a#cta-button {
   color: white;
   width: 220px;
   height: 53px;
@@ -344,7 +344,7 @@ main .cta-button a {
   background-color: #2980B9;
 }
 
-main .cta-button a:hover {
+main a#cta-button:hover {
   background-color: #3498DB;
 }
 
