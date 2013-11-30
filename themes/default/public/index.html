@@ -227,7 +227,7 @@ mixpanel.init("17ee13fe73c31382db2573c46e9283d4");</script>
 </main>
 
 <script type="text/javascript">
-var cta = function() { mixpanel.track("Let's Talk") };
+var cta = function(this) { mixpanel.track(this.innerText); };
 document.getElementById("cta-nav").addEventListener("click", cta, false);
 document.getElementById("cta-button").addEventListener("click", cta, false);
 </script>
