@@ -238,7 +238,7 @@ main p {
 
 main ul, ol {
   margin: 0;
-  padding: 10px 10px 0 52px;
+  padding: 10px 10px 0 55px;
 }
 
 main li {
@@ -251,7 +251,7 @@ main ul#questions li, ul#champion li, ul#teams li, ol#process li {
 
 main ul#questions li:before {
   top: 11px;
-  left: -34px;
+  left: -36px;
   width: 25px;
   height: 25px;
   color: white;
@@ -271,7 +271,7 @@ main ul#questions li:before {
 
 main ul#champion li:before {
   top: 11px;
-  left: -34px;
+  left: -36px;
   width: 0;
   height: 0;
   border: solid 13px #F1C40F;
@@ -287,7 +287,7 @@ main ul#champion li:before {
 
 main ul#champion li:after {
   top: 15px;
-  left: -30px;
+  left: -32px;
   width: 18px;
   height: 19px;
   content: "\00a0";
@@ -299,7 +299,7 @@ main ul#champion li:after {
 
 main ul#teams li:before {
   top: 11px;
-  left: -34px;
+  left: -36px;
   width: 0;
   height: 0;
   border: solid 13px #2ECC71;
@@ -315,7 +315,7 @@ main ul#teams li:before {
 
 main ul#teams li:after {
   top: 16px;
-  left: -26px;
+  left: -28px;
   width: 9px;
   height: 14px;
   border: solid #fff;
@@ -337,7 +337,7 @@ main ol#process {
 
 main ol#process li:before {
   top: 11px;
-  left: -34px;
+  left: -36px;
   width: 25px;
   height: 25px;
   color: white;
