@@ -56,7 +56,7 @@ ul, ol {
 
 /*****************************************************************************/
 
-@-webkit-keyframes loader {
+@-webkit-keyframes progress {
   0%   { width: 0; }
   10%  { width: 4%; }
   20%  { width: 15%; }
@@ -66,7 +66,7 @@ ul, ol {
   100% { width: 100%; }
 }
 
-@-moz-keyframes loader {
+@-moz-keyframes progress {
   0%   { width: 0; }
   10%  { width: 4%; }
   20%  { width: 15%; }
@@ -76,17 +76,17 @@ ul, ol {
   100% { width: 100%; }
 }
 
-@-o-keyframes loader {
+@-o-keyframes progress {
   0%   { width: 0; }
-  10%  { width: 4%; }
-  20%  { width: 15%; }
-  60%  { width: 64%; }
+  10%  { width: 15%; }
+  20%  { width: 30%; }
+  60%  { width: 65%; }
   85%  { width: 95%; }
   90%  { width: 100%; }
   100% { width: 100%; }
 }
 
-@keyframes loader {
+@keyframes progress {
   0%   { width: 0; }
   10%  { width: 10%; }
   20%  { width: 15%; }
@@ -95,17 +95,17 @@ ul, ol {
   100% { width: 100%; }
 }
 
-#loader {
+#progress {
   top: 0;
   height: 5px;
   z-index: 50;
   position: fixed;
   background: #34495E;
 
-  -webkit-animation: loader 1.3s ease 0s 1 normal forwards;
-     -moz-animation: loader 1.3s ease 0s 1 normal forwards;
-       -o-animation: loader 1.3s ease 0s 1 normal forwards;
-          animation: loader 1.3s ease 0s 1 normal forwards;
+  -webkit-animation: progress 1.3s ease 0s 1 normal forwards;
+     -moz-animation: progress 1.3s ease 0s 1 normal forwards;
+       -o-animation: progress 1.3s ease 0s 1 normal forwards;
+          animation: progress 1.3s ease 0s 1 normal forwards;
 }
 
 /*****************************************************************************/
