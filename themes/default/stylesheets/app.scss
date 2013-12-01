@@ -125,6 +125,10 @@ nav {
           animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
 }
 
+.lt-ie10 nav {
+  opacity: 1;
+}
+
 nav section {
   margin: 0 auto;
   width: 768px;
@@ -184,6 +188,10 @@ header {
           animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
 }
 
+.lt-ie10 header {
+  opacity: 1;
+}
+
 header h1 {
   margin: 0;
   font-size: 96px;
@@ -206,6 +214,10 @@ main {
      -moz-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
        -o-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
           animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
+}
+
+.lt-ie10 main {
+  opacity: 1;
 }
 
 main section {
