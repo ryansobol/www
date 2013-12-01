@@ -250,6 +250,7 @@ main ul#questions li, ul#champion li, ul#teams li, ol#process li {
 }
 
 main ul#questions li:before {
+  top: 11px;
   left: -34px;
   width: 25px;
   height: 25px;
@@ -269,6 +270,7 @@ main ul#questions li:before {
 }
 
 main ul#champion li:before {
+  top: 11px;
   left: -34px;
   width: 0;
   height: 0;
@@ -284,7 +286,7 @@ main ul#champion li:before {
 }
 
 main ul#champion li:after {
-  top: 14px;
+  top: 15px;
   left: -30px;
   width: 18px;
   height: 19px;
@@ -296,6 +298,7 @@ main ul#champion li:after {
 }
 
 main ul#teams li:before {
+  top: 11px;
   left: -34px;
   width: 0;
   height: 0;
@@ -311,7 +314,7 @@ main ul#teams li:before {
 }
 
 main ul#teams li:after {
-  top: 14px;
+  top: 16px;
   left: -26px;
   width: 9px;
   height: 14px;
@@ -333,6 +336,7 @@ main ol#process {
 }
 
 main ol#process li:before {
+  top: 11px;
   left: -34px;
   width: 25px;
   height: 25px;
