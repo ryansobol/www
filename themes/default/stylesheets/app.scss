@@ -400,7 +400,8 @@ main .half {
 
 main .third {
   float: left;
-  width: 33%;
+  margin: 0 5px;
+  width: 246px;
 }
 
 main h4 {
@@ -415,8 +416,7 @@ main #first-tier {
 }
 
 main ul.pricing-table {
-  margin: 0;
-  padding: 0 5px;
+  padding: 0;
 }
 
 main ul.pricing-table li {
