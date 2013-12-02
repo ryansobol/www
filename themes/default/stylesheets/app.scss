@@ -102,10 +102,10 @@ ul, ol {
   position: fixed;
   background: #34495E;
 
-  -webkit-animation: progress 1.3s ease 0s 1 normal forwards;
-     -moz-animation: progress 1.3s ease 0s 1 normal forwards;
-       -o-animation: progress 1.3s ease 0s 1 normal forwards;
-          animation: progress 1.3s ease 0s 1 normal forwards;
+  -webkit-animation: progress 0.3s ease 0s 1 normal forwards;
+     -moz-animation: progress 0.3s ease 0s 1 normal forwards;
+       -o-animation: progress 0.3s ease 0s 1 normal forwards;
+          animation: progress 0.3s ease 0s 1 normal forwards;
 }
 
 /*****************************************************************************/
@@ -119,10 +119,10 @@ nav {
   position: fixed;
   background-color: #34495E;
 
-  -webkit-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-     -moz-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-       -o-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-          animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
+  -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+     -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+       -o-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+          animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
 }
 
 .lte-ie9 nav {
@@ -182,10 +182,10 @@ header {
   padding-bottom: 85px;
   background-color: #2C3E50;
 
-  -webkit-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-     -moz-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-       -o-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-          animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
+  -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+     -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+       -o-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+          animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
 }
 
 .lte-ie9 header {
@@ -210,10 +210,10 @@ main {
   color: #2C3E50;
   opacity: 0;
 
-  -webkit-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-     -moz-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-       -o-animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
-          animation: fade-in 0.2s ease-out 1.5s 1 normal forwards;
+  -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+     -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+       -o-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+          animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
 }
 
 .lte-ie9 main {
@@ -391,7 +391,7 @@ main h4 {
 }
 
 main #pricing-table {
-  padding: 15px 15px 0 15px;
+  padding: 30px 15px 0 15px;
 }
 
 main #pricing-table:before, #pricing-table:after {
@@ -403,13 +403,10 @@ main #pricing-table:after {
   clear: both;
 }
 
-main .third {
-  float: left;
-  margin: 0 5px;
-  width: 236px;
-}
-
 main ul.column {
+  float: left;
+  width: 236px;
+  margin: 0 5px;
   padding: 0;
 }
 
@@ -420,7 +417,7 @@ main ul.column li {
   line-height: 53px;
 }
 
-main ul.column li:nth-child(even) {
+main ul.column li:nth-child(odd) {
   background-color: #E8ECEE;
 }
 
