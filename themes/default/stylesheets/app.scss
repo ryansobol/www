@@ -383,21 +383,6 @@ main svg#code-fellows {
   margin-top: 50px;
 }
 
-main .row:before, .row:after {
-  content: " ";
-  display: table;
-}
-
-main .row:after {
-  clear: both;
-}
-
-main .third {
-  float: left;
-  margin: 0 10px;
-  width: 236px;
-}
-
 main h4 {
   margin: 0;
   padding-top: 20px;
@@ -405,22 +390,37 @@ main h4 {
   font-weight: 400;
 }
 
-main #first-tier {
-  padding-top: 15px;
+main #pricing-table {
+  padding: 15px 15px 0 15px;
 }
 
-main ul.pricing-table {
+main #pricing-table:before, #pricing-table:after {
+  content: " ";
+  display: table;
+}
+
+main #pricing-table:after {
+  clear: both;
+}
+
+main .third {
+  float: left;
+  margin: 0 5px;
+  width: 236px;
+}
+
+main ul.column {
   padding: 0;
 }
 
-main ul.pricing-table li {
+main ul.column li {
   height: 53px;
   padding: 0;
   text-align: center;
   line-height: 53px;
 }
 
-main ul.pricing-table li:nth-child(even) {
+main ul.column li:nth-child(even) {
   background-color: #E8ECEE;
 }
 
