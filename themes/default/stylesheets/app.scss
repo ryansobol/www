@@ -173,6 +173,126 @@ nav a#cta-nav {
   background-color: #2880B9;
 }
 
+nav ul#connect {
+  // display: none;
+  display: inline-block;
+  border-top: 1px solid #E8ECEE;
+
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
+     -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
+          box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
+}
+
+nav ul#connect li {
+  width: 178px;
+  border-bottom: 1px solid #E8ECEE;
+}
+
+nav ul#connect li:last-child {
+  border-bottom: none;
+}
+
+nav ul#connect a {
+  font-size: 17px;
+  text-align: left;
+  padding-left: 15px;
+  background-color: white;
+}
+
+.no-touch nav ul#connect a:hover {
+  padding-left: 25px;
+}
+
+nav ul#connect svg {
+  top: 2px;
+  position: relative;
+  padding-right: 7px;
+}
+
+// newsletter
+
+$newsletter-color: #FFAA31;
+
+nav a#newsletter {
+  color: $newsletter-color
+}
+
+nav a#newsletter path {
+  fill: $newsletter-color;
+}
+
+.no-touch nav a#newsletter:hover {
+  color: white;
+  background-color: $newsletter-color;
+}
+
+.no-touch nav a#newsletter:hover path {
+  fill: white;
+}
+
+// twitter
+
+$twitter-color: #55ACEE;
+
+nav a#twitter {
+  color: $twitter-color;
+}
+
+nav a#twitter path {
+  fill: $twitter-color;
+}
+
+.no-touch nav a#twitter:hover {
+  color: white;
+  background-color: $twitter-color;
+}
+
+.no-touch nav a#twitter:hover path {
+  fill: white;
+}
+
+// github
+
+$github-color: #1A1A1A;
+
+nav a#github {
+  color: $github-color;
+}
+
+nav a#github path {
+  fill: $github-color;
+}
+
+.no-touch nav a#github:hover {
+  color: white;
+  background-color: $github-color;
+}
+
+.no-touch nav a#github:hover path {
+  fill: white;
+}
+
+// linkedin
+
+$linkedin-color: #0E76A8;
+
+nav a#linkedin {
+  color: $linkedin-color;
+}
+
+nav a#linkedin path {
+  fill: $linkedin-color;
+}
+
+.no-touch nav a#linkedin:hover {
+  color: white;
+  background-color: $linkedin-color;
+}
+
+.no-touch nav a#linkedin:hover path {
+  fill: white;
+}
+
 /*****************************************************************************/
 
 header {
