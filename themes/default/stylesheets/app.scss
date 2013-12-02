@@ -1,5 +1,15 @@
 @import "normalize";
 
+$turquoise:     #1abc9c;
+$emerald:       #2ecc71;
+$peter-river:   #3498db;
+$belize-hole:   #2980b9;
+$wet-asphalt:   #34495e;
+$midnight-blue: #2c3e50;
+$sun-flower:    #f1c40f;
+$alizarian:     #e74c3c;
+$clouds:        #ecf0f1;
+
 *, *:before, *:after {
           box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -80,7 +90,7 @@ ul, ol {
   height: 5px;
   z-index: 50;
   position: fixed;
-  background: #34495E;
+  background: $wet-asphalt;
 
   -webkit-animation: progress 0.3s ease 0s 1 normal forwards;
      -moz-animation: progress 0.3s ease 0s 1 normal forwards;
@@ -97,7 +107,7 @@ nav {
   opacity: 0;
   z-index: 100;
   position: fixed;
-  background-color: #34495E;
+  background-color: $wet-asphalt;
 
   -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
      -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
@@ -131,7 +141,7 @@ nav li {
 }
 
 nav li#active {
-  background-color: #2C3E50;
+  background-color: $midnight-blue;
 }
 
 nav a {
@@ -145,18 +155,18 @@ nav a {
 }
 
 .no-touch nav a:hover, .no-touch a#cta-nav:hover {
-  color: #2C3E50;
+  color: $midnight-blue;
   background-color: white;
 }
 
 nav a#cta-nav {
-  background-color: #2880B9;
+  background-color: $belize-hole;
 }
 
 nav ul#connect {
   // display: none;
   display: inline-block;
-  border-top: 1px solid #E8ECEE;
+  border-top: 1px solid $clouds;
 
   -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
      -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
@@ -165,7 +175,7 @@ nav ul#connect {
 
 nav ul#connect li {
   width: 178px;
-  border-bottom: 1px solid #E8ECEE;
+  border-bottom: 1px solid $clouds;
 }
 
 nav ul#connect li:last-child {
@@ -280,7 +290,7 @@ header {
   opacity: 0;
   margin-top: 45px;
   padding-bottom: 85px;
-  background-color: #2C3E50;
+  background-color: $midnight-blue;
 
   -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
      -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
@@ -307,7 +317,7 @@ header h2 {
 /*****************************************************************************/
 
 main {
-  color: #2C3E50;
+  color: $midnight-blue;
   opacity: 0;
 
   -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
@@ -358,7 +368,7 @@ main ul#questions li:before {
   content: "?";
   display: block;
   position: absolute;
-  background: #E74C3C;
+  background: $alizarian;
   text-align: center;
   font-weight: 900;
   line-height: 25px;
@@ -374,7 +384,7 @@ main ul#champion li:before {
   left: -36px;
   width: 0;
   height: 0;
-  border: solid 13px #F1C40F;
+  border: solid 13px $sun-flower;
   content: "\00a0";
   display: block;
   position: absolute;
@@ -402,7 +412,7 @@ main ul#teams li:before {
   left: -36px;
   width: 0;
   height: 0;
-  border: solid 13px #2ECC71;
+  border: solid 13px $emerald;
   content: "\00a0";
   display: block;
   position: absolute;
@@ -444,7 +454,7 @@ main ol#process li:before {
   content: counter(step);
   display: block;
   position: absolute;
-  background: #1ABC9C;
+  background: $turquoise;
   text-align: center;
   font-weight: 900;
   line-height: 25px;
@@ -518,7 +528,7 @@ main ul.column li {
 }
 
 main ul.column li:nth-child(odd) {
-  background-color: #E8ECEE;
+  background-color: $clouds;
 }
 
 main li.title {
@@ -542,11 +552,11 @@ main a#cta-button {
   border-radius: 4px;
   letter-spacing: 0.04em;
   text-decoration: none;
-  background-color: #2980B9;
+  background-color: $belize-hole;
 }
 
 .no-touch main a#cta-button:hover {
-  background-color: #3498DB;
+  background-color: $peter-river;
 }
 
 main h5 {
@@ -558,9 +568,9 @@ main h5 {
 }
 
 main h5 a {
-  color: #2C3E50;
+  color: $midnight-blue;
 }
 
 .no-touch main h5 a:hover {
-  color: #2980B9;
+  color: $belize-hole;
 }
