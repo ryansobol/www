@@ -168,11 +168,12 @@ nav a#cta-nav {
 
 .no-touch nav li#connect:hover ul#channels {
   display: inline-block;
+  opacity: 1;
 
-  -webkit-animation: fade-in 0.13s ease-out 0 1 normal forwards;
-     -moz-animation: fade-in 0.13s ease-out 0 1 normal forwards;
-       -o-animation: fade-in 0.13s ease-out 0 1 normal forwards;
-          animation: fade-in 0.13s ease-out 0 1 normal forwards;
+  -webkit-transition: all 0.13s ease-out;
+     -moz-transition: all 0.13s ease-out;
+       -o-transition: all 0.13s ease-out;
+          transition: all 0.13s ease-out;
 }
 
 nav ul#channels {
