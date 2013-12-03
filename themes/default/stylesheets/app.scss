@@ -32,11 +32,10 @@ h1, h2, h3 {
 }
 
 a {
-          transition: all 0.13s ease-out;
   -webkit-transition: all 0.13s ease-out;
      -moz-transition: all 0.13s ease-out;
-      -ms-transition: all 0.13s ease-out;
        -o-transition: all 0.13s ease-out;
+          transition: all 0.13s ease-out;
 }
 
 ul, ol {
@@ -154,7 +153,7 @@ nav a {
   letter-spacing: 0.04em;
 }
 
-.no-touch nav a:hover, .no-touch a#cta-nav:hover {
+.no-touch nav li:hover a {
   color: $midnight-blue;
   background-color: white;
 }
@@ -163,37 +162,53 @@ nav a#cta-nav {
   background-color: $belize-hole;
 }
 
-nav ul#connect {
-  // display: none;
-  display: inline-block;
-  border-top: 1px solid $clouds;
-
-  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
-     -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
-          box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
+.no-touch nav li:hover a#cta-nav {
+  background-color: white;
 }
 
-nav ul#connect li {
+.no-touch nav li#connect:hover ul#channels {
+  display: inline-block;
+
+  -webkit-animation: fade-in 0.13s ease-out 0 1 normal forwards;
+     -moz-animation: fade-in 0.13s ease-out 0 1 normal forwards;
+       -o-animation: fade-in 0.13s ease-out 0 1 normal forwards;
+          animation: fade-in 0.13s ease-out 0 1 normal forwards;
+}
+
+nav ul#channels {
+  display: none;
+  opacity: 0;
+  border-top: 1px solid $clouds;
+
+  // -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.28);
+  //    -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.28);
+  //         box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+nav ul#channels li {
   width: 178px;
+
+    border-left: 2px solid $clouds;
+   border-right: 2px solid $clouds;
   border-bottom: 1px solid $clouds;
 }
 
-nav ul#connect li:last-child {
-  border-bottom: none;
+nav ul#channels li:last-child {
+  border-bottom: 2px solid $clouds;
 }
 
-nav ul#connect a {
+nav ul#channels a {
   font-size: 17px;
   text-align: left;
   padding-left: 15px;
   background-color: white;
 }
 
-.no-touch nav ul#connect a:hover {
+.no-touch nav ul#channels li:hover a {
   padding-left: 25px;
 }
 
-nav ul#connect svg {
+nav ul#channels svg {
   top: 2px;
   position: relative;
   padding-right: 7px;
@@ -201,7 +216,7 @@ nav ul#connect svg {
 
 // newsletter
 
-$newsletter-color: #FFAA31;
+$newsletter-color: $turquoise;
 
 nav a#newsletter {
   color: $newsletter-color
@@ -211,12 +226,12 @@ nav a#newsletter path {
   fill: $newsletter-color;
 }
 
-.no-touch nav a#newsletter:hover {
+.no-touch nav ul#channels li:hover a#newsletter {
   color: white;
   background-color: $newsletter-color;
 }
 
-.no-touch nav a#newsletter:hover path {
+.no-touch nav ul#channels li:hover a#newsletter path {
   fill: white;
 }
 
@@ -232,12 +247,12 @@ nav a#twitter path {
   fill: $twitter-color;
 }
 
-.no-touch nav a#twitter:hover {
+.no-touch nav ul#channels li:hover a#twitter {
   color: white;
   background-color: $twitter-color;
 }
 
-.no-touch nav a#twitter:hover path {
+.no-touch nav ul#channels li:hover a#twitter path {
   fill: white;
 }
 
@@ -253,12 +268,12 @@ nav a#github path {
   fill: $github-color;
 }
 
-.no-touch nav a#github:hover {
+.no-touch nav ul#channels li:hover a#github {
   color: white;
   background-color: $github-color;
 }
 
-.no-touch nav a#github:hover path {
+.no-touch nav ul#channels li:hover a#github path {
   fill: white;
 }
 
@@ -274,12 +289,12 @@ nav a#linkedin path {
   fill: $linkedin-color;
 }
 
-.no-touch nav a#linkedin:hover {
+.no-touch nav ul#channels li:hover a#linkedin {
   color: white;
   background-color: $linkedin-color;
 }
 
-.no-touch nav a#linkedin:hover path {
+.no-touch nav ul#channels li:hover a#linkedin path {
   fill: white;
 }
 
