@@ -9,6 +9,7 @@ $midnight-blue: #2c3e50;
 $sun-flower:    #f1c40f;
 $alizarian:     #e74c3c;
 $clouds:        #ecf0f1;
+$seattle:       #f6f8f8;
 
 *, *:before, *:after {
           box-sizing: border-box;
@@ -179,23 +180,24 @@ nav a#cta-nav {
 nav ul#channels {
   display: none;
   opacity: 0;
-  border-top: 1px solid $clouds;
+  // border-top: 1px solid $clouds;
 
-  // -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.28);
-  //    -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.28);
-  //         box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+     -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+          box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
 }
 
 nav ul#channels li {
   width: 178px;
 
-    border-left: 2px solid $clouds;
-   border-right: 2px solid $clouds;
+   //  border-left: 2px solid $clouds;
+   // border-right: 2px solid $clouds;
   border-bottom: 1px solid $clouds;
 }
 
 nav ul#channels li:last-child {
-  border-bottom: 2px solid $clouds;
+  // border-bottom: 2px solid $clouds;
+  border-bottom: none;
 }
 
 nav ul#channels a {
