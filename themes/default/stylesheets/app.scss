@@ -39,7 +39,7 @@ a {
           transition: all 0.13s ease-out;
 }
 
-ul, ol {
+ul {
   list-style: none;
 }
 
@@ -364,7 +364,7 @@ main p {
   padding: 20px 20px 0 20px;
 }
 
-main ul, ol {
+main ul {
   margin: 0;
   padding: 10px 20px 0 65px;
 }
@@ -373,7 +373,7 @@ main li {
   padding-top: 10px;
 }
 
-main ul#questions li, ul#champion li, ul#teams li, ol#process li {
+main ul#questions li, ul#champion li, ul#teams li {
   position: relative;
 }
 
@@ -457,31 +457,6 @@ main ul#teams li:after {
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
-}
-
-main ol#process {
-  counter-reset: step;
-}
-
-main ol#process li:before {
-  top: 11px;
-  left: -36px;
-  width: 25px;
-  height: 25px;
-  color: white;
-  content: counter(step);
-  display: block;
-  position: absolute;
-  background: $turquoise;
-  text-align: center;
-  font-weight: 900;
-  line-height: 25px;
-  counter-increment: step;
-
-          border-radius: 13px;
-  -webkit-border-radius: 13px;
-     -moz-border-radius: 13px;
-      -ms-border-radius: 13px;
 }
 
 main blockquote {
