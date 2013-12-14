@@ -9,7 +9,7 @@ $midnight-blue: #2c3e50;
 $sun-flower:    #f1c40f;
 $alizarian:     #e74c3c;
 $clouds:        #ecf0f1;
-$seattle:       #f6f8f8;
+$ubud-winter:   #f6f8f8;
 
 *, *:before, *:after {
           box-sizing: border-box;
@@ -337,6 +337,7 @@ header h2 {
 main {
   color: $midnight-blue;
   opacity: 0;
+  padding-bottom: 50px;
 
   -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
      -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
@@ -346,6 +347,18 @@ main {
 
 .lte-ie9 main {
   opacity: 1;
+}
+
+main#teams {
+  background-color: $ubud-winter;
+}
+
+main#testimonials {
+  border-bottom: 5px solid $ubud-winter;
+}
+
+main#call-to-action {
+  padding-bottom: 0;
 }
 
 main section {
