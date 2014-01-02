@@ -386,7 +386,7 @@ main li {
   padding-top: 10px;
 }
 
-main ul#questions li, ul#champion li, ul#teams li {
+main ul#questions li, ul#trophies li, ul#checks li {
   position: relative;
 }
 
@@ -410,7 +410,7 @@ main ul#questions li:before {
       -ms-border-radius: 13px;
 }
 
-main ul#champion li:before {
+main ul#trophies li:before {
   top: 11px;
   left: -36px;
   width: 0;
@@ -426,7 +426,7 @@ main ul#champion li:before {
       -ms-border-radius: 13px;
 }
 
-main ul#champion li:after {
+main ul#trophies li:after {
   top: 15px;
   left: -32px;
   width: 18px;
@@ -438,7 +438,7 @@ main ul#champion li:after {
   background-image: url(../images/trophy.svg);
 }
 
-main ul#teams li:before {
+main ul#checks li:before {
   top: 11px;
   left: -36px;
   width: 0;
@@ -454,7 +454,7 @@ main ul#teams li:before {
       -ms-border-radius: 13px;
 }
 
-main ul#teams li:after {
+main ul#checks li:after {
   top: 16px;
   left: -28px;
   width: 9px;
