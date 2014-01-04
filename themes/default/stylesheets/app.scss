@@ -332,6 +332,17 @@ header h2 {
   padding-top: 50px;
 }
 
+header h1:before {
+  width: 133px;
+  height: 134px;
+  content: "\00a0";
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+  background-size: cover;
+  background-image: url(../images/ryansobol-logo.svg);
+}
+
 /*****************************************************************************/
 
 main {
