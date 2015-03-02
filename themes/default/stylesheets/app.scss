@@ -373,8 +373,8 @@ main#call-to-action {
 }
 
 main section {
-  margin: 0 auto;
   width: 768px;
+  margin: 0 auto;
 }
 
 main h3 {
@@ -594,4 +594,14 @@ main h6 a {
 
 .no-touch main h6 a:hover {
   color: $belize-hole;
+}
+
+@media screen and (max-device-width: 767px) {
+  nav section {
+    width: 100%;
+  }
+
+  main section {
+    width: 100%;
+  }
 }
