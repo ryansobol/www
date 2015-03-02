@@ -502,8 +502,17 @@ main svg {
   margin-top: 60px;
 }
 
-main svg#code-fellows {
+main svg#codefellows {
+  width: 404px;
   margin-top: 40px;
+}
+
+main svg#uw {
+  width: 338px;
+}
+
+main svg#freedomfromhunger {
+  width: 243px;
 }
 
 main h5 {
@@ -603,5 +612,17 @@ main h6 a {
 
   main section {
     width: 100%;
+  }
+
+  main svg#codefellows {
+    width: 290px;
+  }
+
+  main svg#uw {
+    width: 243px;
+  }
+
+  main svg#freedomfromhunger {
+    width: 174px;
   }
 }
