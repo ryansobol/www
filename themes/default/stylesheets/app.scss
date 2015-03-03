@@ -322,19 +322,19 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 112px;
+  font-size: 100px;
   padding-top: 65px;
 }
 
 header h2 {
   margin: 0;
-  font-size: 68px;
-  padding-top: 24px;
+  font-size: 62px;
+  padding-top: 40px;
 }
 
 header h1:before {
-  width: 133px;
-  height: 134px;
+  width: 124px;
+  height: 125px;
   content: "\00a0";
   display: inline-block;
   position: relative;
@@ -379,7 +379,7 @@ main section {
 
 main h3 {
   margin: 0;
-  font-size: 46px;
+  font-size: 38px;
   padding: 50px 20px 10px 20px;
 }
 
