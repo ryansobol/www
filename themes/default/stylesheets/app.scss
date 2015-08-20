@@ -35,10 +35,7 @@ h1, h2, h3 {
 }
 
 a {
-  -webkit-transition: all 0.13s ease-out;
-     -moz-transition: all 0.13s ease-out;
-       -o-transition: all 0.13s ease-out;
-          transition: all 0.13s ease-out;
+  transition: all 0.13s ease-out;
 }
 
 ul {
@@ -172,11 +169,7 @@ nav a#cta-nav {
 .no-touch nav li#connect:hover ul#channels {
   display: inline-block;
   opacity: 1;
-
-  -webkit-transition: all 0.13s ease-out;
-     -moz-transition: all 0.13s ease-out;
-       -o-transition: all 0.13s ease-out;
-          transition: all 0.13s ease-out;
+  transition: all 0.13s ease-out;
 }
 
 nav ul#channels {
