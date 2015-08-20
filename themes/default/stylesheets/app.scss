@@ -535,7 +535,7 @@ main #pricing-table {
 }
 
 main #pricing-table:before, #pricing-table:after {
-  content: ' ';
+  content: '\00a0';
   display: table;
 }
 
