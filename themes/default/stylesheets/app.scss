@@ -11,10 +11,12 @@ $alizarian:    #E74C3C;
 $clouds:       #ECF0F1;
 $ubudWinter:   #F6F8F8;
 
+html {
+  box-sizing: border-box;
+}
+
 *, *:before, *:after {
-          box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -535,7 +537,7 @@ main #pricing-table {
 }
 
 main #pricing-table:before, #pricing-table:after {
-  content: '\00a0';
+  content: ' ';
   display: table;
 }
 
