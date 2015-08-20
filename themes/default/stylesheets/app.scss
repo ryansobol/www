@@ -65,8 +65,8 @@ nav {
   position: fixed;
   background-color: $wetAsphalt;
 
-  -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
-          animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+  -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
+          animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
 }
 
 .lte-ie9 nav {
@@ -260,8 +260,8 @@ header {
   padding-bottom: 75px;
   background-color: $midnightBlue;
 
-  -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
-          animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+  -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
+          animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
 }
 
 .lte-ie9 header {
@@ -298,8 +298,8 @@ main {
   opacity: 0;
   padding-bottom: 50px;
 
-  -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
-          animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
+  -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
+          animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
 }
 
 .lte-ie9 main {
