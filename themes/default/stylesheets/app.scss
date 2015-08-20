@@ -1,15 +1,15 @@
 @import "normalize";
 
-$turquoise:     #1abc9c;
-$emerald:       #2ecc71;
-$peter-river:   #3498db;
-$belize-hole:   #2980b9;
-$wet-asphalt:   #34495e;
-$midnight-blue: #2c3e50;
-$sun-flower:    #f1c40f;
-$alizarian:     #e74c3c;
-$clouds:        #ecf0f1;
-$ubud-winter:   #f6f8f8;
+$turquoise:    #1abc9c;
+$emerald:      #2ecc71;
+$peterRiver:   #3498db;
+$belizeHole:   #2980b9;
+$wetAsphalt:   #34495e;
+$midnightBlue: #2c3e50;
+$sunFlower:    #f1c40f;
+$alizarian:    #e74c3c;
+$clouds:       #ecf0f1;
+$ubudWinter:   #f6f8f8;
 
 *, *:before, *:after {
           box-sizing: border-box;
@@ -90,7 +90,7 @@ ul {
   height: 5px;
   z-index: 50;
   position: fixed;
-  background: $wet-asphalt;
+  background: $wetAsphalt;
 
   -webkit-animation: progress 0.3s ease 0s 1 normal forwards;
      -moz-animation: progress 0.3s ease 0s 1 normal forwards;
@@ -107,7 +107,7 @@ nav {
   opacity: 0;
   z-index: 100;
   position: fixed;
-  background-color: $wet-asphalt;
+  background-color: $wetAsphalt;
 
   -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
      -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
@@ -141,7 +141,7 @@ nav li {
 }
 
 nav li#active {
-  background-color: $midnight-blue;
+  background-color: $midnightBlue;
 }
 
 nav a {
@@ -155,12 +155,12 @@ nav a {
 }
 
 .no-touch nav li:hover a {
-  color: $midnight-blue;
+  color: $midnightBlue;
   background-color: white;
 }
 
 nav a#cta-nav {
-  background-color: $belize-hole;
+  background-color: $belizeHole;
 }
 
 .no-touch nav li:hover a#cta-nav {
@@ -308,7 +308,7 @@ header {
   opacity: 0;
   margin-top: 45px;
   padding-bottom: 75px;
-  background-color: $midnight-blue;
+  background-color: $midnightBlue;
 
   -webkit-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
      -moz-animation: fade-in 0.2s ease-out 0.4s 1 normal forwards;
@@ -346,7 +346,7 @@ header h1:before {
 /*****************************************************************************/
 
 main {
-  color: $midnight-blue;
+  color: $midnightBlue;
   opacity: 0;
   padding-bottom: 50px;
 
@@ -361,11 +361,11 @@ main {
 }
 
 main#teams {
-  background-color: $ubud-winter;
+  background-color: $ubudWinter;
 }
 
 main#testimonials {
-  border-bottom: 5px solid $ubud-winter;
+  border-bottom: 5px solid $ubudWinter;
 }
 
 main#call-to-action {
@@ -426,7 +426,7 @@ main ul#trophies li:before {
   left: -36px;
   width: 0;
   height: 0;
-  border: solid 13px $sun-flower;
+  border: solid 13px $sunFlower;
   content: "\00a0";
   display: block;
   position: absolute;
@@ -582,11 +582,11 @@ main a#cta-button {
   border-radius: 4px;
   letter-spacing: 0.04em;
   text-decoration: none;
-  background-color: $belize-hole;
+  background-color: $belizeHole;
 }
 
 .no-touch main a#cta-button:hover {
-  background-color: $peter-river;
+  background-color: $peterRiver;
 }
 
 main h6 {
@@ -598,11 +598,11 @@ main h6 {
 }
 
 main h6 a {
-  color: $midnight-blue;
+  color: $midnightBlue;
 }
 
 .no-touch main h6 a:hover {
-  color: $belize-hole;
+  color: $belizeHole;
 }
 
 @media screen and (max-device-width: 767px) {
