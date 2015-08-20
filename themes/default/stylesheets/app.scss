@@ -1,4 +1,4 @@
-@import "normalize";
+@import 'normalize';
 
 $turquoise:    #1abc9c;
 $emerald:      #2ecc71;
@@ -18,7 +18,7 @@ $ubudWinter:   #f6f8f8;
 }
 
 html {
-  font: 19px/1.6 "Lato", sans-serif;
+  font: 19px/1.6 'Lato', sans-serif;
   font-weight: 400;
   letter-spacing: 0em;
 }
@@ -335,7 +335,7 @@ header h2 {
 header h1:before {
   width: 124px;
   height: 125px;
-  content: "\00a0";
+  content: '\00a0';
   display: inline-block;
   position: relative;
   margin-right: 25px;
@@ -407,7 +407,7 @@ main ul#questions li:before {
   width: 25px;
   height: 25px;
   color: white;
-  content: "?";
+  content: '?';
   display: block;
   position: absolute;
   background: $alizarian;
@@ -427,7 +427,7 @@ main ul#trophies li:before {
   width: 0;
   height: 0;
   border: solid 13px $sunFlower;
-  content: "\00a0";
+  content: '\00a0';
   display: block;
   position: absolute;
 
@@ -442,7 +442,7 @@ main ul#trophies li:after {
   left: -32px;
   width: 18px;
   height: 19px;
-  content: "\00a0";
+  content: '\00a0';
   display: block;
   z-index: 10;
   position: absolute;
@@ -455,7 +455,7 @@ main ul#checks li:before {
   width: 0;
   height: 0;
   border: solid 13px $emerald;
-  content: "\00a0";
+  content: '\00a0';
   display: block;
   position: absolute;
 
@@ -471,7 +471,7 @@ main ul#checks li:after {
   width: 9px;
   height: 14px;
   border: solid #fff;
-  content: "\00a0";
+  content: '\00a0';
   display: block;
   z-index: 10;
   position: absolute;
@@ -535,7 +535,7 @@ main #pricing-table {
 }
 
 main #pricing-table:before, #pricing-table:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
