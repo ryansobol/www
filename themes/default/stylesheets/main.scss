@@ -25,24 +25,26 @@ main {
     padding-top: 10px;
   }
 
-  ul#questions li {
-    position: relative;
-  }
+  &#pain {
+    li {
+      position: relative;
 
-  ul#questions li:before {
-    background: $alizarian;
-    border-radius: 13px;
-    color: white;
-    content: '?';
-    display: block;
-    font-weight: 900;
-    height: 25px;
-    left: -36px;
-    line-height: 25px;
-    position: absolute;
-    top: 11px;
-    text-align: center;
-    width: 25px;
+      &:before {
+        background: $alizarian;
+        border-radius: 13px;
+        color: white;
+        content: '?';
+        display: block;
+        font-weight: 900;
+        height: 25px;
+        left: -36px;
+        line-height: 25px;
+        position: absolute;
+        top: 11px;
+        text-align: center;
+        width: 25px;
+      }
+    }
   }
 
   &#dream {
