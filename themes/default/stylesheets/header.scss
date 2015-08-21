@@ -1,4 +1,4 @@
-header {
+#hero {
   color: white;
   opacity: 0;
   margin-top: 45px;
@@ -7,27 +7,27 @@ header {
 
   -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
           animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
-}
 
-header h1 {
-  margin: 0;
-  font-size: 100px;
-  padding-top: 65px;
-}
+  h1 {
+    margin: 0;
+    font-size: 100px;
+    padding-top: 65px;
 
-header h2 {
-  margin: 0;
-  font-size: 62px;
-  padding-top: 40px;
-}
+    &:before {
+      width: 124px;
+      height: 125px;
+      content: '\00a0';
+      display: inline-block;
+      position: relative;
+      margin-right: 25px;
+      background-size: cover;
+      background-image: url(../images/ryansobol-logo.svg);
+    }
+  }
 
-header h1:before {
-  width: 124px;
-  height: 125px;
-  content: '\00a0';
-  display: inline-block;
-  position: relative;
-  margin-right: 25px;
-  background-size: cover;
-  background-image: url(../images/ryansobol-logo.svg);
+  h2 {
+    margin: 0;
+    font-size: 62px;
+    padding-top: 40px;
+  }
 }
