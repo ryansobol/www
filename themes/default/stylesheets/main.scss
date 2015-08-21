@@ -5,10 +5,6 @@ main {
   -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
           animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
 
-  &#fix {
-    padding-bottom: 50px;
-  }
-
   h3 {
     font-size: 38px;
     margin: 0;
@@ -29,7 +25,7 @@ main {
     padding-top: 10px;
   }
 
-  ul#questions li, ul#trophies li, ul#checks li {
+  ul#questions li, ul#trophies li {
     position: relative;
   }
 
@@ -73,33 +69,41 @@ main {
     z-index: 10;
   }
 
-  ul#checks li:before {
-    border: solid 13px $emerald;
-    border-radius: 13px;
-    content: '\00a0';
-    display: block;
-    height: 0;
-    left: -36px;
-    position: absolute;
-    top: 11px;
-    width: 0;
-  }
+  &#fix {
+    padding-bottom: 50px;
 
-  ul#checks li:after {
-    border-color: white;
-    border-style: solid;
-    border-width: 0 4px 4px 0;
-    content: '\00a0';
-    display: block;
-    height: 14px;
-    left: -28px;
-    position: absolute;
-    top: 16px;
-    width: 9px;
-    z-index: 10;
+    li {
+      position: relative;
 
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+      &:before {
+        border: solid 13px $emerald;
+        border-radius: 13px;
+        content: '\00a0';
+        display: block;
+        height: 0;
+        left: -36px;
+        position: absolute;
+        top: 11px;
+        width: 0;
+      }
+
+      &:after {
+        border-color: white;
+        border-style: solid;
+        border-width: 0 4px 4px 0;
+        content: '\00a0';
+        display: block;
+        height: 14px;
+        left: -28px;
+        position: absolute;
+        top: 16px;
+        width: 9px;
+        z-index: 10;
+
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+      }
+    }
   }
 
   &#teams {
