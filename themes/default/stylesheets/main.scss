@@ -16,13 +16,14 @@ main {
     padding: 20px 20px 0 20px;
   }
 
-  ul {
-    margin: 0;
-    padding: 10px 20px 0 65px;
-  }
+  &#pain, &#dream, &#fix {
+    ul {
+      padding: 10px 20px 0 65px;
+    }
 
-  li {
-    padding-top: 10px;
+    li {
+      padding-top: 10px;
+    }
   }
 
   &#pain {
@@ -181,13 +182,11 @@ main {
         flex-basis: 192px;
         flex-grow: 1;
         margin: 10px 5px 0 5px;
-        padding: 0;
       }
 
       li {
         height: 60px;
         line-height: 60px;
-        padding: 0;
         text-align: center;
       }
 
