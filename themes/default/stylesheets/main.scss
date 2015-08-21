@@ -163,16 +163,16 @@ main h4 {
   font-weight: 400;
 }
 
-main #pricing-table {
+main #pricing {
   padding: 30px 15px 0 15px;
 }
 
-main #pricing-table:before, #pricing-table:after {
+main #pricing:before, #pricing:after {
   content: ' ';
   display: table;
 }
 
-main #pricing-table:after {
+main #pricing:after {
   clear: both;
 }
 
