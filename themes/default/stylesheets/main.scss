@@ -162,29 +162,29 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 20px 15px 0 15px;
-  }
 
-  ul.column {
-    flex-basis: 192px;
-    flex-grow: 1;
-    margin: 10px 5px 0 5px;
-    padding: 0;
-  }
+    ul {
+      flex-basis: 192px;
+      flex-grow: 1;
+      margin: 10px 5px 0 5px;
+      padding: 0;
+    }
 
-  ul.column li {
-    height: 60px;
-    line-height: 60px;
-    padding: 0;
-    text-align: center;
-  }
+    li {
+      height: 60px;
+      line-height: 60px;
+      padding: 0;
+      text-align: center;
+    }
 
-  ul.column li:nth-child(odd) {
-    background-color: $clouds;
-  }
+    li:nth-child(odd) {
+      background-color: $clouds;
+    }
 
-  li.title {
-    font-weight: 900;
-    letter-spacing: 0.01em;
+    .title {
+      font-weight: 900;
+      letter-spacing: 0.01em;
+    }
   }
 
   a#cta-button {
