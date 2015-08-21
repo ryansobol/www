@@ -186,7 +186,7 @@ main {
       }
     }
 
-    a#ctaButton {
+    .ctaButton {
       background-color: $belizeHole;
       border-radius: 4px;
       color: white;
@@ -204,7 +204,7 @@ main {
 }
 
 .no-touch main#callToAction {
-  a#ctaButton:hover {
+  .ctaButton:hover {
     background-color: $peterRiver;
   }
 }
