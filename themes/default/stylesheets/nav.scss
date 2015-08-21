@@ -75,41 +75,41 @@
   // newsletter
 
   a#newsletter {
-    color: $newsletter-color
+    color: $newsletter
   }
 
   a#newsletter path {
-    fill: $newsletter-color;
+    fill: $newsletter;
   }
 
   // twitter
 
   a#twitter {
-    color: $twitter-color;
+    color: $twitter;
   }
 
   a#twitter path {
-    fill: $twitter-color;
+    fill: $twitter;
   }
 
   // github
 
   a#github {
-    color: $github-color;
+    color: $github;
   }
 
   a#github path {
-    fill: $github-color;
+    fill: $github;
   }
 
   // linkedin
 
   a#linkedin {
-    color: $linkedin-color;
+    color: $linkedin;
   }
 
   a#linkedin path {
-    fill: $linkedin-color;
+    fill: $linkedin;
   }
 }
 
@@ -135,7 +135,7 @@
 
   ul#channels li:hover a#newsletter {
     color: white;
-    background-color: $newsletter-color;
+    background-color: $newsletter;
   }
 
   ul#channels li:hover a#newsletter path {
@@ -144,7 +144,7 @@
 
   ul#channels li:hover a#twitter {
     color: white;
-    background-color: $twitter-color;
+    background-color: $twitter;
   }
 
   ul#channels li:hover a#twitter path {
@@ -153,7 +153,7 @@
 
   ul#channels li:hover a#github {
     color: white;
-    background-color: $github-color;
+    background-color: $github;
   }
 
   ul#channels li:hover a#github path {
@@ -162,7 +162,7 @@
 
   ul#channels li:hover a#linkedin {
     color: white;
-    background-color: $linkedin-color;
+    background-color: $linkedin;
   }
 
   ul#channels li:hover a#linkedin path {
