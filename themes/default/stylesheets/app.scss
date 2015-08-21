@@ -408,10 +408,8 @@ main ul#checks li:after {
   position: absolute;
   border-width: 0 4px 4px 0;
 
-          transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 main blockquote {
