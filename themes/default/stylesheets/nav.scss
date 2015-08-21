@@ -1,4 +1,4 @@
-nav {
+#topNav {
   top: 0;
   width: 100%;
   height: 45px;
@@ -9,169 +9,163 @@ nav {
 
   -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
           animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
+
+  ul#right {
+    float: right;
+  }
+
+  li {
+    float: left;
+    width: 128px;
+    height: 45px;
+    line-height: 45px;
+  }
+
+  li#active {
+    background-color: $midnightBlue;
+  }
+
+  a {
+    color: white;
+    height: 100%;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+
+  a#cta-nav {
+    background-color: $belizeHole;
+  }
+
+  ul#channels {
+    display: none;
+    opacity: 0;
+    // border-top: 1px solid $clouds;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+  }
+
+  ul#channels li {
+    width: 178px;
+
+     //  border-left: 2px solid $clouds;
+     // border-right: 2px solid $clouds;
+    border-bottom: 1px solid $clouds;
+  }
+
+  ul#channels li:last-child {
+    // border-bottom: 2px solid $clouds;
+    border-bottom: none;
+  }
+
+  ul#channels a {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 15px;
+    background-color: white;
+  }
+
+  ul#channels svg {
+    top: 2px;
+    position: relative;
+    margin-right: 7px;
+  }
+
+  // newsletter
+
+  a#newsletter {
+    color: $newsletter-color
+  }
+
+  a#newsletter path {
+    fill: $newsletter-color;
+  }
+
+  // twitter
+
+  a#twitter {
+    color: $twitter-color;
+  }
+
+  a#twitter path {
+    fill: $twitter-color;
+  }
+
+  // github
+
+  a#github {
+    color: $github-color;
+  }
+
+  a#github path {
+    fill: $github-color;
+  }
+
+  // linkedin
+
+  a#linkedin {
+    color: $linkedin-color;
+  }
+
+  a#linkedin path {
+    fill: $linkedin-color;
+  }
 }
 
-nav ul#right {
-  float: right;
-}
+.no-touch #topNav {
+  li:hover a {
+    color: $midnightBlue;
+    background-color: white;
+  }
 
-nav li {
-  float: left;
-  width: 128px;
-  height: 45px;
-  line-height: 45px;
-}
+  li:hover a#cta-nav {
+    background-color: white;
+  }
 
-nav li#active {
-  background-color: $midnightBlue;
-}
+  li#connect:hover ul#channels {
+    display: inline-block;
+    opacity: 1;
+    transition: all 0.13s ease-out;
+  }
 
-nav a {
-  color: white;
-  height: 100%;
-  display: block;
-  text-align: center;
-  font-weight: 900;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-}
+  ul#channels li:hover a {
+    padding-left: 25px;
+  }
 
-.no-touch nav li:hover a {
-  color: $midnightBlue;
-  background-color: white;
-}
+  ul#channels li:hover a#newsletter {
+    color: white;
+    background-color: $newsletter-color;
+  }
 
-nav a#cta-nav {
-  background-color: $belizeHole;
-}
+  ul#channels li:hover a#newsletter path {
+    fill: white;
+  }
 
-.no-touch nav li:hover a#cta-nav {
-  background-color: white;
-}
+  ul#channels li:hover a#twitter {
+    color: white;
+    background-color: $twitter-color;
+  }
 
-.no-touch nav li#connect:hover ul#channels {
-  display: inline-block;
-  opacity: 1;
-  transition: all 0.13s ease-out;
-}
+  ul#channels li:hover a#twitter path {
+    fill: white;
+  }
 
-nav ul#channels {
-  display: none;
-  opacity: 0;
-  // border-top: 1px solid $clouds;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
-}
+  ul#channels li:hover a#github {
+    color: white;
+    background-color: $github-color;
+  }
 
-nav ul#channels li {
-  width: 178px;
+  ul#channels li:hover a#github path {
+    fill: white;
+  }
 
-   //  border-left: 2px solid $clouds;
-   // border-right: 2px solid $clouds;
-  border-bottom: 1px solid $clouds;
-}
+  ul#channels li:hover a#linkedin {
+    color: white;
+    background-color: $linkedin-color;
+  }
 
-nav ul#channels li:last-child {
-  // border-bottom: 2px solid $clouds;
-  border-bottom: none;
-}
-
-nav ul#channels a {
-  font-size: 17px;
-  text-align: left;
-  padding-left: 15px;
-  background-color: white;
-}
-
-.no-touch nav ul#channels li:hover a {
-  padding-left: 25px;
-}
-
-nav ul#channels svg {
-  top: 2px;
-  position: relative;
-  margin-right: 7px;
-}
-
-// newsletter
-
-$newsletter-color: $turquoise;
-
-nav a#newsletter {
-  color: $newsletter-color
-}
-
-nav a#newsletter path {
-  fill: $newsletter-color;
-}
-
-.no-touch nav ul#channels li:hover a#newsletter {
-  color: white;
-  background-color: $newsletter-color;
-}
-
-.no-touch nav ul#channels li:hover a#newsletter path {
-  fill: white;
-}
-
-// twitter
-
-$twitter-color: #55ACEE;
-
-nav a#twitter {
-  color: $twitter-color;
-}
-
-nav a#twitter path {
-  fill: $twitter-color;
-}
-
-.no-touch nav ul#channels li:hover a#twitter {
-  color: white;
-  background-color: $twitter-color;
-}
-
-.no-touch nav ul#channels li:hover a#twitter path {
-  fill: white;
-}
-
-// github
-
-$github-color: #1A1A1A;
-
-nav a#github {
-  color: $github-color;
-}
-
-nav a#github path {
-  fill: $github-color;
-}
-
-.no-touch nav ul#channels li:hover a#github {
-  color: white;
-  background-color: $github-color;
-}
-
-.no-touch nav ul#channels li:hover a#github path {
-  fill: white;
-}
-
-// linkedin
-
-$linkedin-color: #0E76A8;
-
-nav a#linkedin {
-  color: $linkedin-color;
-}
-
-nav a#linkedin path {
-  fill: $linkedin-color;
-}
-
-.no-touch nav ul#channels li:hover a#linkedin {
-  color: white;
-  background-color: $linkedin-color;
-}
-
-.no-touch nav ul#channels li:hover a#linkedin path {
-  fill: white;
+  ul#channels li:hover a#linkedin path {
+    fill: white;
+  }
 }
