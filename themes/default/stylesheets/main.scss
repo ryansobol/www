@@ -6,10 +6,6 @@ main {
   -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
           animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
 
-  &#teams {
-    background-color: $ubudWinter;
-  }
-
   h3 {
     font-size: 38px;
     margin: 0;
@@ -103,31 +99,35 @@ main {
             transform: rotate(45deg);
   }
 
-  svg {
-    display: block;
-    margin: 0 auto;
-    margin-top: 60px;
-  }
+  &#teams {
+    background-color: $ubudWinter;
 
-  svg#codefellows {
-    margin-top: 40px;
-    width: 404px;
-  }
+    svg {
+      display: block;
+      margin: 0 auto;
+      margin-top: 60px;
+    }
 
-  svg#uw {
-    width: 338px;
-  }
+    svg#codefellows {
+      margin-top: 40px;
+      width: 404px;
+    }
 
-  svg#freedomfromhunger {
-    width: 243px;
-  }
+    svg#uw {
+      width: 338px;
+    }
 
-  h5 {
-    font-size: 19px;
-    font-weight: 400;
-    margin: 0;
-    padding: 20px 20px 0 20px;
-    text-align: center;
+    svg#freedomfromhunger {
+      width: 243px;
+    }
+
+    h5 {
+      font-size: 19px;
+      font-weight: 400;
+      margin: 0;
+      padding: 20px 20px 0 20px;
+      text-align: center;
+    }
   }
 
   &#testimonials {
@@ -210,7 +210,7 @@ main {
 }
 
 @media screen and (max-device-width: 767px) {
-  main {
+  main#teams {
     svg#codefellows {
       width: 290px;
     }
