@@ -14,10 +14,6 @@ main {
     border-bottom: 5px solid $ubudWinter;
   }
 
-  &#callToAction {
-    padding-bottom: 0;
-  }
-
   h3 {
     font-size: 38px;
     margin: 0;
@@ -151,59 +147,63 @@ main {
     text-align: center;
   }
 
-  h4 {
-    font-weight: 400;
-    margin: 0;
-    padding-top: 20px;
-    text-align: center;
-  }
+  &#callToAction {
+    padding-bottom: 0;
 
-  .pricing {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 15px 0 15px;
-
-    ul {
-      flex-basis: 192px;
-      flex-grow: 1;
-      margin: 10px 5px 0 5px;
-      padding: 0;
-    }
-
-    li {
-      height: 60px;
-      line-height: 60px;
-      padding: 0;
+    h4 {
+      font-weight: 400;
+      margin: 0;
+      padding-top: 20px;
       text-align: center;
     }
 
-    .title {
-      background: $wetAsphalt;
+    .pricing {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px 15px 0 15px;
+
+      ul {
+        flex-basis: 192px;
+        flex-grow: 1;
+        margin: 10px 5px 0 5px;
+        padding: 0;
+      }
+
+      li {
+        height: 60px;
+        line-height: 60px;
+        padding: 0;
+        text-align: center;
+      }
+
+      .title {
+        background: $wetAsphalt;
+        color: white;
+      }
+
+      .discount {
+        background: $clouds;
+      }
+    }
+
+    a#cta-button {
+      background-color: $belizeHole;
+      border-radius: 4px;
       color: white;
+      display: block;
+      font-weight: 900;
+      height: 53px;
+      letter-spacing: 0.04em;
+      line-height: 53px;
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: none;
+      width: 220px;
     }
-
-    .discount {
-      background: $clouds;
-    }
-  }
-
-  a#cta-button {
-    background-color: $belizeHole;
-    border-radius: 4px;
-    color: white;
-    display: block;
-    font-weight: 900;
-    height: 53px;
-    letter-spacing: 0.04em;
-    line-height: 53px;
-    margin: 0 auto;
-    text-align: center;
-    text-decoration: none;
-    width: 220px;
   }
 }
 
-.no-touch main {
+.no-touch main#callToAction {
   a#cta-button:hover {
     background-color: $peterRiver;
   }
