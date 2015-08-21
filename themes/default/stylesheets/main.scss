@@ -5,228 +5,232 @@ main {
 
   -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
           animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
-}
 
-main#teams {
-  background-color: $ubudWinter;
-}
-
-main#testimonials {
-  border-bottom: 5px solid $ubudWinter;
-}
-
-main#callToAction {
-  padding-bottom: 0;
-}
-
-main h3 {
-  margin: 0;
-  font-size: 38px;
-  padding: 50px 20px 10px 20px;
-}
-
-main p {
-  margin: 0;
-  padding: 20px 20px 0 20px;
-}
-
-main ul {
-  margin: 0;
-  padding: 10px 20px 0 65px;
-}
-
-main li {
-  padding-top: 10px;
-}
-
-main ul#questions li, ul#trophies li, ul#checks li {
-  position: relative;
-}
-
-main ul#questions li:before {
-  top: 11px;
-  left: -36px;
-  width: 25px;
-  height: 25px;
-  color: white;
-  content: '?';
-  display: block;
-  position: absolute;
-  background: $alizarian;
-  text-align: center;
-  font-weight: 900;
-  line-height: 25px;
-  border-radius: 13px;
-}
-
-main ul#trophies li:before {
-  top: 11px;
-  left: -36px;
-  width: 0;
-  height: 0;
-  border: solid 13px $sunFlower;
-  content: '\00a0';
-  display: block;
-  position: absolute;
-  border-radius: 13px;
-}
-
-main ul#trophies li:after {
-  top: 15px;
-  left: -32px;
-  width: 18px;
-  height: 19px;
-  content: '\00a0';
-  display: block;
-  z-index: 10;
-  position: absolute;
-  background-image: url(../images/trophy.svg);
-}
-
-main ul#checks li:before {
-  top: 11px;
-  left: -36px;
-  width: 0;
-  height: 0;
-  border: solid 13px $emerald;
-  content: '\00a0';
-  display: block;
-  position: absolute;
-  border-radius: 13px;
-}
-
-main ul#checks li:after {
-  top: 16px;
-  left: -28px;
-  width: 9px;
-  height: 14px;
-  border: solid #fff;
-  content: '\00a0';
-  display: block;
-  z-index: 10;
-  position: absolute;
-  border-width: 0 4px 4px 0;
-
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-
-main blockquote {
-  margin: 0;
-  padding: 30px 20px 0 20px;
-  text-align: center;
-  font-weight: 300;
-}
-
-main cite {
-  display: block;
-  font-style: normal;
-  font-weight: 400;
-}
-
-main svg {
-  margin: 0 auto;
-  display: block;
-  margin-top: 60px;
-}
-
-main svg#codefellows {
-  width: 404px;
-  margin-top: 40px;
-}
-
-main svg#uw {
-  width: 338px;
-}
-
-main svg#freedomfromhunger {
-  width: 243px;
-}
-
-main h5 {
-  margin: 0;
-  padding: 20px 20px 0 20px;
-  font-size: 19px;
-  text-align: center;
-  font-weight: 400;
-}
-
-main h4 {
-  margin: 0;
-  text-align: center;
-  padding-top: 20px;
-  font-weight: 400;
-}
-
-main #pricing {
-  padding: 30px 15px 0 15px;
-}
-
-main #pricing:before, #pricing:after {
-  content: ' ';
-  display: table;
-}
-
-main #pricing:after {
-  clear: both;
-}
-
-main ul.column {
-  float: left;
-  width: 236px;
-  margin: 0 5px;
-  padding: 0;
-}
-
-main ul.column li {
-  height: 60px;
-  padding: 0;
-  text-align: center;
-  line-height: 60px;
-}
-
-main ul.column li:nth-child(odd) {
-  background-color: $clouds;
-}
-
-main li.title {
-  font-weight: 900;
-  letter-spacing: 0.01em;
-}
-
-main li.feature {
-  font-weight: 300;
-}
-
-main a#cta-button {
-  color: white;
-  width: 220px;
-  height: 53px;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-  font-weight: 900;
-  line-height: 53px;
-  border-radius: 4px;
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  background-color: $belizeHole;
-}
-
-.no-touch main a#cta-button:hover {
-  background-color: $peterRiver;
-}
-
-@media screen and (max-device-width: 767px) {
-  main svg#codefellows {
-    width: 290px;
+  &#teams {
+    background-color: $ubudWinter;
   }
 
-  main svg#uw {
+  &#testimonials {
+    border-bottom: 5px solid $ubudWinter;
+  }
+
+  &#callToAction {
+    padding-bottom: 0;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 38px;
+    padding: 50px 20px 10px 20px;
+  }
+
+  p {
+    margin: 0;
+    padding: 20px 20px 0 20px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 10px 20px 0 65px;
+  }
+
+  li {
+    padding-top: 10px;
+  }
+
+  ul#questions li, ul#trophies li, ul#checks li {
+    position: relative;
+  }
+
+  ul#questions li:before {
+    top: 11px;
+    left: -36px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    content: '?';
+    display: block;
+    position: absolute;
+    background: $alizarian;
+    text-align: center;
+    font-weight: 900;
+    line-height: 25px;
+    border-radius: 13px;
+  }
+
+  ul#trophies li:before {
+    top: 11px;
+    left: -36px;
+    width: 0;
+    height: 0;
+    border: solid 13px $sunFlower;
+    content: '\00a0';
+    display: block;
+    position: absolute;
+    border-radius: 13px;
+  }
+
+  ul#trophies li:after {
+    top: 15px;
+    left: -32px;
+    width: 18px;
+    height: 19px;
+    content: '\00a0';
+    display: block;
+    z-index: 10;
+    position: absolute;
+    background-image: url(../images/trophy.svg);
+  }
+
+  ul#checks li:before {
+    top: 11px;
+    left: -36px;
+    width: 0;
+    height: 0;
+    border: solid 13px $emerald;
+    content: '\00a0';
+    display: block;
+    position: absolute;
+    border-radius: 13px;
+  }
+
+  ul#checks li:after {
+    top: 16px;
+    left: -28px;
+    width: 9px;
+    height: 14px;
+    border: solid #fff;
+    content: '\00a0';
+    display: block;
+    z-index: 10;
+    position: absolute;
+    border-width: 0 4px 4px 0;
+
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 30px 20px 0 20px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  cite {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  svg {
+    margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+  }
+
+  svg#codefellows {
+    width: 404px;
+    margin-top: 40px;
+  }
+
+  svg#uw {
+    width: 338px;
+  }
+
+  svg#freedomfromhunger {
     width: 243px;
   }
 
-  main svg#freedomfromhunger {
-    width: 174px;
+  h5 {
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  h4 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+  }
+
+  #pricing {
+    padding: 30px 15px 0 15px;
+  }
+
+  #pricing:before, #pricing:after {
+    content: ' ';
+    display: table;
+  }
+
+  #pricing:after {
+    clear: both;
+  }
+
+  ul.column {
+    float: left;
+    width: 236px;
+    margin: 0 5px;
+    padding: 0;
+  }
+
+  ul.column li {
+    height: 60px;
+    padding: 0;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  ul.column li:nth-child(odd) {
+    background-color: $clouds;
+  }
+
+  li.title {
+    font-weight: 900;
+    letter-spacing: 0.01em;
+  }
+
+  li.feature {
+    font-weight: 300;
+  }
+
+  a#cta-button {
+    color: white;
+    width: 220px;
+    height: 53px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    line-height: 53px;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    background-color: $belizeHole;
+  }
+}
+
+.no-touch main {
+  a#cta-button:hover {
+    background-color: $peterRiver;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  main {
+    svg#codefellows {
+      width: 290px;
+    }
+
+    svg#uw {
+      width: 243px;
+    }
+
+    svg#freedomfromhunger {
+      width: 174px;
+    }
   }
 }
