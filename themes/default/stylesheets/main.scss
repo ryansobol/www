@@ -19,11 +19,6 @@ main#callToAction {
   padding-bottom: 0;
 }
 
-main section {
-  width: 768px;
-  margin: 0 auto;
-}
-
 main h3 {
   margin: 0;
   font-size: 38px;
@@ -223,10 +218,6 @@ main a#cta-button {
 }
 
 @media screen and (max-device-width: 767px) {
-  main section {
-    width: 100%;
-  }
-
   main svg#codefellows {
     width: 290px;
   }

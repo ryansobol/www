@@ -26,3 +26,14 @@ a {
 ul {
   list-style: none;
 }
+
+section {
+  width: 768px;
+  margin: 0 auto;
+}
+
+@media screen and (max-device-width: 767px) {
+  section {
+    width: 100%;
+  }
+}
