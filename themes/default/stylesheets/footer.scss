@@ -1,15 +1,19 @@
-footer h6 {
-  margin: 0;
-  padding: 35px 0;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 300;
+#license {
+  h6 {
+    margin: 0;
+    padding: 35px 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  a {
+    color: $midnightBlue;
+  }
 }
 
-footer h6 a {
-  color: $midnightBlue;
-}
-
-.no-touch footer h6 a:hover {
-  color: $belizeHole;
+.no-touch #license {
+  a:hover {
+    color: $belizeHole;
+  }
 }
