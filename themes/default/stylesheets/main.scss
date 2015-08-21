@@ -10,10 +10,6 @@ main {
     background-color: $ubudWinter;
   }
 
-  &#testimonials {
-    border-bottom: 5px solid $ubudWinter;
-  }
-
   h3 {
     font-size: 38px;
     margin: 0;
@@ -107,19 +103,6 @@ main {
             transform: rotate(45deg);
   }
 
-  blockquote {
-    font-weight: 300;
-    margin: 0;
-    padding: 30px 20px 0 20px;
-    text-align: center;
-  }
-
-  cite {
-    display: block;
-    font-style: normal;
-    font-weight: 400;
-  }
-
   svg {
     display: block;
     margin: 0 auto;
@@ -145,6 +128,23 @@ main {
     margin: 0;
     padding: 20px 20px 0 20px;
     text-align: center;
+  }
+
+  &#testimonials {
+    border-bottom: 5px solid $ubudWinter;
+
+    blockquote {
+      font-weight: 300;
+      margin: 0;
+      padding: 30px 20px 0 20px;
+      text-align: center;
+    }
+
+    cite {
+      display: block;
+      font-style: normal;
+      font-weight: 400;
+    }
   }
 
   &#callToAction {
