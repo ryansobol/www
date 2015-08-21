@@ -159,23 +159,16 @@ main {
   }
 
   #pricing {
-    padding: 30px 15px 0 15px;
-  }
-
-  #pricing:before, #pricing:after {
-    content: ' ';
-    display: table;
-  }
-
-  #pricing:after {
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 15px 0 15px;
   }
 
   ul.column {
-    float: left;
-    margin: 0 5px;
+    flex-basis: 192px;
+    flex-grow: 1;
+    margin: 10px 5px 0 5px;
     padding: 0;
-    width: 236px;
   }
 
   ul.column li {
