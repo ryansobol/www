@@ -177,13 +177,15 @@ main {
       text-align: center;
     }
 
-    li:nth-child(odd) {
-      background-color: $clouds;
-    }
-
     .title {
+      background: $wetAsphalt;
+      color: white;
       font-weight: 900;
       letter-spacing: 0.01em;
+    }
+
+    .discount {
+      background: $clouds;
     }
   }
 
