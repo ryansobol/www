@@ -222,22 +222,6 @@ main a#cta-button {
   background-color: $peterRiver;
 }
 
-main h6 {
-  margin: 0;
-  padding: 35px 0;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 300;
-}
-
-main h6 a {
-  color: $midnightBlue;
-}
-
-.no-touch main h6 a:hover {
-  color: $belizeHole;
-}
-
 @media screen and (max-device-width: 767px) {
   main section {
     width: 100%;

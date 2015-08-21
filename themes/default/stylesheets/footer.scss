@@ -1,0 +1,20 @@
+footer section {
+  width: 768px;
+  margin: 0 auto;
+}
+
+footer h6 {
+  margin: 0;
+  padding: 35px 0;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+footer h6 a {
+  color: $midnightBlue;
+}
+
+.no-touch footer h6 a:hover {
+  color: $belizeHole;
+}
