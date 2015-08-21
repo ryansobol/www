@@ -1,11 +1,11 @@
 #topNav {
-  top: 0;
-  width: 100%;
+  background-color: $wetAsphalt;
   height: 45px;
   opacity: 0;
-  z-index: 100;
   position: fixed;
-  background-color: $wetAsphalt;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 
   -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
           animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
@@ -16,9 +16,9 @@
 
   li {
     float: left;
-    width: 128px;
     height: 45px;
     line-height: 45px;
+    width: 128px;
   }
 
   li#active {
@@ -27,12 +27,12 @@
 
   a {
     color: white;
-    height: 100%;
     display: block;
-    text-align: center;
     font-weight: 900;
-    text-decoration: none;
+    height: 100%;
     letter-spacing: 0.04em;
+    text-align: center;
+    text-decoration: none;
   }
 
   a#cta-nav {
@@ -40,18 +40,17 @@
   }
 
   ul#channels {
-    display: none;
-    opacity: 0;
     // border-top: 1px solid $clouds;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+    display: none;
+    opacity: 0;
   }
 
   ul#channels li {
-    width: 178px;
-
-     //  border-left: 2px solid $clouds;
-     // border-right: 2px solid $clouds;
     border-bottom: 1px solid $clouds;
+    // border-left: 2px solid $clouds;
+    // border-right: 2px solid $clouds;
+    width: 178px;
   }
 
   ul#channels li:last-child {
@@ -60,16 +59,16 @@
   }
 
   ul#channels a {
-    font-size: 17px;
-    text-align: left;
-    padding-left: 15px;
     background-color: white;
+    font-size: 17px;
+    padding-left: 15px;
+    text-align: left;
   }
 
   ul#channels svg {
-    top: 2px;
-    position: relative;
     margin-right: 7px;
+    position: relative;
+    top: 2px;
   }
 
   // newsletter
