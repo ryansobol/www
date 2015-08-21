@@ -3,19 +3,7 @@
 @import 'colors';
 
 @import 'base';
-
-#progress {
-  top: 0;
-  height: 5px;
-  z-index: 50;
-  position: fixed;
-  background: $wetAsphalt;
-
-  -webkit-animation: progress 0.3s ease 0s 1 normal forwards;
-          animation: progress 0.3s ease 0s 1 normal forwards;
-}
-
-/*****************************************************************************/
+@import 'progress';
 
 nav {
   top: 0;
