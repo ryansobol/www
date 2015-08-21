@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+  font: 19px/1.6 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+
+  // Consider applying to all elements
+  text-rendering: optimizelegibility;
+}
+
+a {
+  transition: all 0.13s ease-out;
+}
+
+ul {
+  list-style: none;
+}

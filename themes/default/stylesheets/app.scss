@@ -2,36 +2,7 @@
 @import 'keyframes';
 @import 'colors';
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-html {
-  font: 19px/1.6 'Lato', sans-serif;
-  font-weight: 400;
-  letter-spacing: 0em;
-}
-
-h1, h2, h3 {
-  text-align: center;
-  font-weight: 900;
-  line-height: 1.2;
-
-  /* Consider applying to all elements */
-  text-rendering: optimizelegibility;
-}
-
-a {
-  transition: all 0.13s ease-out;
-}
-
-ul {
-  list-style: none;
-}
+@import 'base';
 
 #progress {
   top: 0;
