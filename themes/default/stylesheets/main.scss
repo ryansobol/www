@@ -25,7 +25,7 @@ main {
     padding-top: 10px;
   }
 
-  ul#questions li, ul#trophies li {
+  ul#questions li {
     position: relative;
   }
 
@@ -45,28 +45,34 @@ main {
     width: 25px;
   }
 
-  ul#trophies li:before {
-    border: solid 13px $sunFlower;
-    border-radius: 13px;
-    content: '\00a0';
-    display: block;
-    height: 0;
-    left: -36px;
-    position: absolute;
-    top: 11px;
-    width: 0;
-  }
+  &#dream {
+    li {
+      position: relative;
 
-  ul#trophies li:after {
-    background-image: url(../images/trophy.svg);
-    content: '\00a0';
-    display: block;
-    height: 19px;
-    left: -32px;
-    position: absolute;
-    top: 15px;
-    width: 18px;
-    z-index: 10;
+      &:before {
+        border: solid 13px $sunFlower;
+        border-radius: 13px;
+        content: '\00a0';
+        display: block;
+        height: 0;
+        left: -36px;
+        position: absolute;
+        top: 11px;
+        width: 0;
+      }
+
+      &:after {
+        background-image: url(../images/trophy.svg);
+        content: '\00a0';
+        display: block;
+        height: 19px;
+        left: -32px;
+        position: absolute;
+        top: 15px;
+        width: 18px;
+        z-index: 10;
+      }
+    }
   }
 
   &#fix {
