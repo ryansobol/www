@@ -7,25 +7,3 @@
 @import 'nav';
 @import 'header';
 @import 'main';
-
-@media screen and (max-device-width: 767px) {
-  nav section {
-    width: 100%;
-  }
-
-  main section {
-    width: 100%;
-  }
-
-  main svg#codefellows {
-    width: 290px;
-  }
-
-  main svg#uw {
-    width: 243px;
-  }
-
-  main svg#freedomfromhunger {
-    width: 174px;
-  }
-}

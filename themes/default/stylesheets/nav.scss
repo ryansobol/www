@@ -189,3 +189,9 @@ nav a#linkedin path {
 .no-touch nav ul#channels li:hover a#linkedin path {
   fill: white;
 }
+
+@media screen and (max-device-width: 767px) {
+  nav section {
+    width: 100%;
+  }
+}
