@@ -174,14 +174,21 @@ main {
     }
 
     .pricing {
+      display: -webkit-flex;
       display: flex;
-      flex-wrap: wrap;
       padding: 20px 15px 0 15px;
 
+      -webkit-flex-wrap: wrap;
+              flex-wrap: wrap;
+
       ul {
-        flex-basis: 192px;
-        flex-grow: 1;
         margin: 10px 5px 0 5px;
+
+        -webkit-flex-basis: 192px;
+                flex-basis: 192px;
+
+        -webkit-flex-grow: 1;
+                flex-grow: 1;
       }
 
       li {
