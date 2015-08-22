@@ -1,6 +1,8 @@
 #topNav {
+  $height: 45px;
+
   background: $wetAsphalt;
-  height: 45px;
+  height: $height;
   opacity: 0;
   position: fixed;
   top: 0;
@@ -10,19 +12,18 @@
   -webkit-animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
           animation: fadeIn 0.2s ease-out 0.4s 1 normal forwards;
 
-  ul#right {
-    float: right;
+  ul {
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
   }
 
   li {
-    float: left;
-    height: 45px;
-    line-height: 45px;
+    height: $height;
+    line-height: $height;
     width: 128px;
-  }
-
-  li#active {
-    background: $midnightBlue;
   }
 
   a {
@@ -35,7 +36,11 @@
     text-decoration: none;
   }
 
-  a#cta-nav {
+  .active {
+    background: $midnightBlue;
+  }
+
+  .cta {
     background: $belizeHole;
   }
 }
@@ -44,9 +49,5 @@
   li:hover a {
     background: white;
     color: $midnightBlue;
-  }
-
-  li:hover a#cta-nav {
-    background: white;
   }
 }
