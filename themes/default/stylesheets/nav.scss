@@ -1,5 +1,5 @@
 #topNav {
-  background-color: $wetAsphalt;
+  background: $wetAsphalt;
   height: 45px;
   opacity: 0;
   position: fixed;
@@ -22,7 +22,7 @@
   }
 
   li#active {
-    background-color: $midnightBlue;
+    background: $midnightBlue;
   }
 
   a {
@@ -36,17 +36,17 @@
   }
 
   a#cta-nav {
-    background-color: $belizeHole;
+    background: $belizeHole;
   }
 }
 
 .no-touch #topNav {
   li:hover a {
+    background: white;
     color: $midnightBlue;
-    background-color: white;
   }
 
   li:hover a#cta-nav {
-    background-color: white;
+    background: white;
   }
 }
