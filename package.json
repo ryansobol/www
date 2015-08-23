@@ -5,7 +5,7 @@
   "author": "Ryan Sobol",
   "scripts": {
     "start": "brunch watch --server",
-    "deploy": "brunch build --production; surge public"
+    "deploy": "brunch build --production; surge public ryansobol.com"
   },
   "devDependencies": {
     "brunch": "^1.8.5",
