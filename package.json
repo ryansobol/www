@@ -1,0 +1,9 @@
+{
+  "name": "www",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "brunch": "^1.8.5",
+    "sass-brunch": "^1.8.11"
+  }
+}
