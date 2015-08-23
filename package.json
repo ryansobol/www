@@ -4,7 +4,8 @@
   "private": true,
   "devDependencies": {
     "brunch": "^1.8.5",
-    "sass-brunch": "^1.8.11"
+    "sass-brunch": "^1.8.11",
+    "surge": "^0.14.3"
   },
   "scripts": {
     "deploy": "brunch build --production; surge public"
