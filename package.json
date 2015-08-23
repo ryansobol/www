@@ -5,5 +5,8 @@
   "devDependencies": {
     "brunch": "^1.8.5",
     "sass-brunch": "^1.8.11"
+  },
+  "scripts": {
+    "deploy": "brunch build --production; surge public"
   }
 }
