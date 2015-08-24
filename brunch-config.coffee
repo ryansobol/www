@@ -1,9 +1,7 @@
-module.exports = {
-  config: {
-    files: {
-      stylesheets: {
-        joinTo: 'app.css'
-      }
+module.exports.config = {
+  files: {
+    stylesheets: {
+      joinTo: 'app.css'
     }
   }
 }
