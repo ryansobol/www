@@ -34,17 +34,22 @@
 
 @media screen and (max-device-width: 767px) {
   #hero {
+    padding-bottom: 9.78%;
+
     h1 {
       font-size: 13.04vw;
+      padding-top: 8.48%;
 
       &:before {
         height: 16.31vw;
+        margin-right: 3.26%;
         width: 16.17vw;
       }
     }
 
     h2 {
       font-size: 8.08vw;
+      padding-top: 5.22%;
     }
   }
 }
