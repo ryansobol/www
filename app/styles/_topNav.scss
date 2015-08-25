@@ -47,8 +47,12 @@
     top: 2px;
   }
 
-  .active {
+  .home {
     background: $midnightBlue;
+
+    svg {
+      top: 3px;
+    }
   }
 
   .cta {
