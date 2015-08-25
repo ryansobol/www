@@ -162,6 +162,8 @@ main {
   }
 
   &#callToAction {
+    margin-bottom: 70px;
+
     p {
       text-align: center;
     }
@@ -246,6 +248,14 @@ main {
         padding: 17px 17px 0 17px;
       }
     }
+
+    &#callToAction {
+      margin-bottom: 67px;
+
+      .pricing {
+        padding: 7px 12px 0 12px;
+      }
+    }
   }
 }
 
@@ -278,12 +288,6 @@ main {
 
     &#testimonials {
       padding-bottom: 6.52%;
-    }
-
-    &#callToAction {
-      .pricing {
-        padding: 7px 12px 0 12px;
-      }
     }
   }
 }
