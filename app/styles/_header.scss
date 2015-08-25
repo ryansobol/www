@@ -31,3 +31,20 @@
     padding-top: 40px;
   }
 }
+
+@media screen and (max-device-width: 767px) {
+  #hero {
+    h1 {
+      font-size: 13.04vw;
+
+      &:before {
+        height: 16.31vw;
+        width: 16.17vw;
+      }
+    }
+
+    h2 {
+      font-size: 8.08vw;
+    }
+  }
+}
