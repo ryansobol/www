@@ -33,12 +33,18 @@
   a {
     color: white;
     display: block;
+    fill: white;
     font-size: 19px;
     font-weight: 900;
     height: 100%;
     letter-spacing: 0.04em;
     text-align: center;
     text-decoration: none;
+  }
+
+  svg {
+    position: relative;
+    top: 2px;
   }
 
   .active {
@@ -54,5 +60,6 @@
   li:hover a {
     background: white;
     color: $midnightBlue;
+    fill: $midnightBlue;
   }
 }
