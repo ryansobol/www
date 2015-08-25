@@ -223,25 +223,61 @@ main {
   }
 }
 
+@media screen and (max-device-width: 599px) {
+  main {
+    p {
+      padding: 17px 17px 0 17px;
+    }
+
+    &#pain, &#dream, &#fix {
+      ul {
+        padding: 7px 17px 0 55px;
+      }
+    }
+
+    &#testimonials {
+      blockquote {
+        padding: 17px 17px 0 17px;
+      }
+    }
+  }
+}
+
 @media screen and (max-device-width: 767px) {
   main {
     h3 {
       font-size: 5.61vw;
       padding: 6.52% 2.61% 0 2.61%;
     }
-  }
 
-  main#teams {
-    .codefellows {
-      width: 290px;
+    &#fix {
+      padding-bottom: 6.52%;
     }
 
-    .uw {
-      width: 243px;
+    &#teams {
+      padding-bottom: 6.52%;
+
+      .codefellows {
+        width: 290px;
+      }
+
+      .uw {
+        width: 243px;
+      }
+
+      .freedomFromHunger {
+        width: 174px;
+      }
     }
 
-    .freedomFromHunger {
-      width: 174px;
+    &#testimonials {
+      padding-bottom: 6.52%;
+    }
+
+    &#callToAction {
+      .pricing {
+        padding: 7px 12px 0 12px;
+      }
     }
   }
 }
