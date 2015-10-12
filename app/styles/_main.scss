@@ -231,7 +231,7 @@ main {
   }
 }
 
-@media screen and (max-device-width: 599px) {
+@media screen and (max-width: 599px) {
   main {
     p {
       padding: 17px 17px 0 17px;
@@ -259,7 +259,7 @@ main {
   }
 }
 
-@media screen and (max-device-width: 767px) {
+@media screen and (max-width: 767px) {
   main {
     h3 {
       font-size: 5.61vw;
