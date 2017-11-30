@@ -8,11 +8,11 @@
     "deploy": "rm -rf prod; brunch build --production; surge prod ryansobol.com"
   },
   "devDependencies": {
-    "brunch": "^1.8.5",
-    "clean-css-brunch": "^1.7.2",
-    "coffee-script-brunch": "^1.8.2",
-    "sass-brunch": "^1.8.11",
-    "surge": "^0.16.0"
+    "brunch": "^2.10.12",
+    "clean-css-brunch": "^2.10.0",
+    "coffee-script-brunch": "^2.10.2",
+    "sass-brunch": "^2.10.4",
+    "surge": "^0.19.0"
   },
   "private": true
 }
