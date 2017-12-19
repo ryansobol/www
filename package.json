@@ -11,7 +11,7 @@
     "brunch": "^2.10.12",
     "clean-css-brunch": "^2.10.0",
     "coffee-script-brunch": "^2.10.2",
-    "sass-brunch": "^2.10.4",
+    "sass-brunch": "git+https://github.com/brunch/sass-brunch.git",
     "surge": "^0.19.0"
   },
   "private": true
