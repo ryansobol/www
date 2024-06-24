@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 84d9d2d5e94be9f80445d93dc74a7248f510cee3 Ryan Sobol <hello@ryansobol.com> 1719252947 -0700	commit (initial): Initial commit
+84d9d2d5e94be9f80445d93dc74a7248f510cee3 3ad7a8c21ed61c18610d45be1187f1b8ee8a534a Ryan Sobol <hello@ryansobol.com> 1719254334 -0700	commit: Port index.html file
+3ad7a8c21ed61c18610d45be1187f1b8ee8a534a 1bca9342b061fea2abfe6ede7ee2b4a61e4d9a27 Ryan Sobol <hello@ryansobol.com> 1719254348 -0700	commit: Port static assets
+1bca9342b061fea2abfe6ede7ee2b4a61e4d9a27 ec84be8a11bada1883ec4bc88a2d93d19b115ff5 Ryan Sobol <hello@ryansobol.com> 1719256127 -0700	commit: Port SCSS styles
+ec84be8a11bada1883ec4bc88a2d93d19b115ff5 225cb86e971fef7329862da8382199947aa5765a Ryan Sobol <hello@ryansobol.com> 1719257078 -0700	commit: Port dynamically positioned topNav
+225cb86e971fef7329862da8382199947aa5765a ec84be8a11bada1883ec4bc88a2d93d19b115ff5 Ryan Sobol <hello@ryansobol.com> 1719257287 -0700	reset: moving to HEAD~1
+ec84be8a11bada1883ec4bc88a2d93d19b115ff5 65535c72ce856465521255b3f550fff002f44467 Ryan Sobol <hello@ryansobol.com> 1719257295 -0700	commit: Port dynamically positioned topNav
+65535c72ce856465521255b3f550fff002f44467 ec84be8a11bada1883ec4bc88a2d93d19b115ff5 Ryan Sobol <hello@ryansobol.com> 1719257304 -0700	reset: moving to HEAD~1
+ec84be8a11bada1883ec4bc88a2d93d19b115ff5 8179a3de27379a43bf2436d85c0511817f12f3d6 Ryan Sobol <hello@ryansobol.com> 1719257329 -0700	commit: Port dynamically positioned topNav
+8179a3de27379a43bf2436d85c0511817f12f3d6 3ed376087ac173af14a22981ba716cb5489e2e40 Ryan Sobol <hello@ryansobol.com> 1719257362 -0700	commit: Re-enable touch detection
+3ed376087ac173af14a22981ba716cb5489e2e40 ff316e382ae65a02ddbee8255afda3e799849e45 Ryan Sobol <hello@ryansobol.com> 1719257401 -0700	commit: Port the LICENSE and update its copyright year
+ff316e382ae65a02ddbee8255afda3e799849e45 7dd860f2d560341c59a82ac6560dd0e8334e3128 Ryan Sobol <hello@ryansobol.com> 1719257437 -0700	commit: Cut unnecessary info from the README
