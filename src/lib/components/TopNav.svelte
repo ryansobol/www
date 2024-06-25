@@ -4,7 +4,7 @@
 	let windowScrollY = 0;
 
 	onMount(() => {
-		const cta = document.querySelector('a.cta');
+		const cta = document.querySelector('#topNav a.cta');
 
 		if (!(cta instanceof HTMLAnchorElement)) return;
 
