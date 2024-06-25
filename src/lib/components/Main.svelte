@@ -1,11 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	let ctaBinding: HTMLAnchorElement;
+
 	onMount(() => {
-		const cta = document.querySelector('#callToAction a.cta');
-
-		if (!(cta instanceof HTMLAnchorElement)) return;
-
 		const encoded =
 			'&#104;&#101;&#108;&#108;&#111;@' +
 			'&#114;&#121;&#97;&#110;&#115;&#111;&#98;' +
@@ -16,9 +14,7 @@
 
 		const decoded = encoded.replace(/&#(\d+);/g, (_, code) => String.fromCharCode(code));
 
-		cta.href = 'mai' + 'lto' + ':' + decoded;
-
-		console.log(cta.href);
+		ctaBinding.href = 'mai' + 'lto' + ':' + decoded;
 	});
 </script>
 
@@ -313,7 +309,7 @@
 
 		<p>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a class="cta" href="#">
+			<a class="cta" bind:this={ctaBinding} href="#">
 				<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19">
 					<path
 						d="M9.5 9.5l-9.5-4.806v-1.132q0-.501.353-.844t.835-.343h16.625q.482 0 .835.343t.353.844v1.132zm-.594 1.188h1.188l8.906-4.62v9.37q0 .482-.353.835t-.835.353h-16.625q-.482 0-.835-.353t-.353-.835v-9.37z"
